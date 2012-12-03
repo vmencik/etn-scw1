@@ -5,8 +5,6 @@ target/
 
 # Eclipse
 .cache
-.classpath
-.project
 .scala_dependencies
 .settings
 .target/
