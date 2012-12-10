@@ -1,6 +1,6 @@
 package com.etnetera.scw1
 
-class Rational(num: Int, den: Int) {
+class Rational(num: Int, den: Int = 1) {
   
   private val g = gcd(num, den)
 
@@ -34,5 +34,7 @@ class Rational(num: Int, den: Int) {
     val prime = 41
     prime * (prime + numer.hashCode) + denom.hashCode
   }
+  
+  override val toString = "" + numer + "/" + denom
   
 }

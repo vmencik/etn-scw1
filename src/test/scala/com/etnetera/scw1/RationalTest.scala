@@ -51,6 +51,13 @@ class RationalTest extends FunSuite {
     assert(r === q)
   }
   
+  test("Single parameter constructor") {
+    assert(new Rational(5) === new Rational(5, 1))
+  }
+  
+  test("Filtering lists of rationals") {
+    val nums = List(1, 2, 3, 4, 5)    
+  }
   
 
 }
